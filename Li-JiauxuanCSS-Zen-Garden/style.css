@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Kranky);
+@import url(https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
+#css-zen-garden{background-image:url(background.jpg);
+                background-size: cover}
+.summary{background-color:#d7dbdd;
+       width:1000px;
+       margin-left: auto;
+       margin-right:auto;
+       border-radius: 50px;}
+.preamble{background-color:  #d7dbdd ;
+       width:1000px;
+       margin-left: auto;
+       margin-right:auto;
+       border-radius: 50px}
+.explanation{background-color:  #d7dbdd ;
+       width:1000px;
+       margin-left: auto;
+       margin-right:auto;
+       border-radius: 50px}
+.participation{background-color:  #d7dbdd ;
+       width:1000px;
+       margin-left: auto;
+       margin-right:auto;
+       border-radius: 50px}
+.benefits{background-color:  #d7dbdd ;
+       width:1000px;
+       margin-left: auto;
+       margin-right:auto;
+       border-radius: 50px}
+.requirements{background-color:  #d7dbdd ;
+       width:1000px;
+       margin-left: auto;
+       margin-right:auto;
+       border-radius: 50px}
+.design-selection{text-align: center;
+                  width:1000px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  background-color:#d7dbdd;
+                  border-radius: 50px;
+                  border:  dashed #ffddef 5px}
+.zen-resources{text-align: center;
+               width:1000px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  background-color:#d7dbdd;
+                  border-radius: 50px;
+                  border: dashed  #ffddef  5px}
+.design-archives{text-align: center;
+                 width:1000px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  background-color:#d7dbdd;
+                  border-radius: 50px;
+                  border: dashed  #ffddef  5px}
+h1{font-family:'Codystar';
+    color:hotpink;
+    font-size:36pt;
+    text-align: center}
+h3{font-family: 'Amatic SC';
+   color:hotpink;
+   font-size:20pt;
+   text-align: center}
+h2{font-family:'Amatic SC';
+   color:hotpink;
+   font-size:24pt;
+   text-align: center;
+   background-color:  #ffe9f5;}
+body{font-family: 'cabin sketch'}
+footer{font-size:15pt;
+       font-family:'kranky';
+       text-align: center}
+a{color:dimgray;
+  font-style: italic}
+p{padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px}
