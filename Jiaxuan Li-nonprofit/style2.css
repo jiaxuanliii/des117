@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand);
+.column {
+            float: left;
+        }
+        
+.row:after {
+            content: "";
+            display: table;
+            clear: both;
+           }
+.one-third{width: 33%;}
+.one-whole{width:100%;}
+body{background-color: #204c81;
+     width:auto;height: 400px;}
+.logo{padding-top: 110px;
+      margin-bottom: -10px;}
+
+.enter{
+       background-color: white;
+       color:green;
+       text-decoration: none;
+       width:150px;
+       height:30px;
+       padding-bottom:20px;
+       font-size: 36pt;
+       font-family: passion one;
+       margin-left:638px;
+       margin-top: 50px;
+       display:block;
+       text-align:center;
+       }
+.box:hover{
+  background: green;
+  color: white;
+}
+.effect {
+  position: relative;
+}
+
+.effect:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.2s;
+
+
+  -webkit-transition-property: top, left, right, bottom;
+  -moz-transition-property: top, left, right, bottom;
+  -ms-transition-property: top, left, right, bottom;
+  -o-transition-property: top, left, right, bottom;
+  transition-property: top, left, right, bottom;
+
+
+}
+
+.effect:hover:before, .effect:focus:before{
+  -webkit-transition-delay: .1s; 
+  -moz-transition-delay: .1s; 
+  -ms-transition-delay: .1s; 
+  -o-transition-delay: .1s; 
+  transition-delay: .1s; 
+
+  border: green solid 3px;
+  bottom: -7px;
+  left: -7px;
+  top: -7px;
+  right: -7px;
+}
+.e{font-size: 120pt;
+   color:white;
+   margin-top: 250px;
+   margin-left:190px;
+   font-family: Amatic SC}
+.h{font-size: 120pt;
+   color:white;
+   margin-top: 250px;
+   margin-right:200px;
+   margin-left:100px;
+   font-family: Amatic SC}
+footer{margin-top:100px;
+       color:white;
+       font-family:Patrick hand;
+       letter-spacing: 2px}
